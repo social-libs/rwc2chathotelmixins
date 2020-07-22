@@ -1,0 +1,26 @@
+{
+  "name": "social_rwc2chathotelmixinslib",
+  "version": "1.0.0",
+  "description": "AllexJS lib with mixins for a Hotel service that implements bridges from RWC to Chat functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/social-libs/rwc2chathotelmixins.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "rwc2chat",
+    "hotel",
+    "mixins",
+    "lib"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/social-libs/rwc2chathotelmixins/issues"
+  },
+  "homepage": "https://github.com/social-libs/rwc2chathotelmixins#readme"
+}
