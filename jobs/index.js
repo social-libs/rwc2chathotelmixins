@@ -7,6 +7,7 @@ function createJobs (lib) {
   require('./affirmativecreator')(lib, ret);
   require('./initcreator')(lib, ret);
   require('./acceptcreator')(lib, ret);
+  require('./rejectcreator')(lib, ret);
 
   return ret;
 }

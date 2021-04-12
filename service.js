@@ -46,12 +46,15 @@ function createServiceMixin (execlib) {
   }
   function rejectLikeWithRemoveConversationProducer (rwcrealm, chatrealm) {
     return function (targetname, initiatorname) {
+      return this.rwc2chatjobs.run('.', new jobs.RejectRelationJob(this, rwcrealm, chatrealm, targetname, initiatorname));
+      /*
       var rcnames = [targetname, initiatorname], ret;
       ret = this['rejectRelationOn'+rwcrealm](targetname, initiatorname).then(
         this['removeConversationOn'+chatrealm].bind(this, rcnames)
       );
       rcnames = null;
       return ret;
+      */
     };
   }
 
